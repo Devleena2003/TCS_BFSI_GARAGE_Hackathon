@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Model/Embedding files and indexes
+*.pkl
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.onnx
+*.faiss
+*.index
+faiss_index/
+
+# Cache & temp files
+*.tmp
+*.bak
+*.swp
+.cache/
+build/
+dist/
+
+# PDFs or source documents (optional)
+*.pdf
+
+# Streamlit-specific files
+.streamlit/
+
+# Test or export folders
+exported_data/
+test_output/
